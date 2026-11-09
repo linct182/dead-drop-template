@@ -1,0 +1,24 @@
+# Local plaintext, scratch, metadata, keys
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.tmp/
+tmp/
+inbox/
+packages/
+raw/
+plaintext/
+*.zip
+*.tar
+*.tar.gz
+# drops should contain encrypted 7z files only; enforcement belongs in preflight checks
