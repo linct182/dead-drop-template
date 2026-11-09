@@ -1,8 +1,10 @@
 # Dead Drop
 
-**Leave it here. Pick it up elsewhere.**
+**Pack it. Lock it. Drop it.**
 
-A small local CLI for packaging selected files into encrypted archives and sharing them through GitHub. Archives use 7z AES-256 encryption, including encrypted filenames, and are verified locally before publication.
+Your files. Your call. Dead Drop turns selected files into a verified, AES-256 encrypted `.7z` archive—with filenames locked, too. Review the manifest, give the green light, and publish the drop.
+
+Pick it up from GitHub and unlock it with your saved archive password.
 
 Use only non-confidential files approved for public distribution through an authorized sharing channel. Anyone can download a public archive, and Git history can retain it after deletion. Encryption does not grant permission to share restricted material.
 
